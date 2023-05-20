@@ -96,6 +96,8 @@ main {
   letter-spacing: 5px;
   color: hsl(228, 12%, 48%);
   margin-bottom: 0.75rem;
+  font-size: 0.75rem;
+  line-height: 1.219;
 }
 
 .product-title {
@@ -145,6 +147,7 @@ button {
   align-items: center;
   cursor: pointer;
   transition: 0.3s all;
+  line-height: 1.219rem;
 }
 
 button:hover {
@@ -175,5 +178,21 @@ button img {
     border-top-left-radius: 10px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 10px;
+  }
+
+  .secondary-heading {
+    margin-bottom: 1.25rem;
+  }
+
+  .product-title {
+    margin-bottom: 1.5rem;
+  }
+
+  .product-description {
+    margin-bottom: 1.813rem;
+  }
+
+  .price-container {
+    margin-bottom: 1.875rem;
   }
 }
