@@ -37,6 +37,8 @@ body {
   line-height: 1.5;
   font-size: 0.875rem;
   background: hsl(30, 38%, 92%);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 }
 
 img,
@@ -84,6 +86,94 @@ main {
   overflow: hidden;
 }
 
+.text-container {
+  padding: 1.5rem;
+}
+
 .secondary-heading {
   text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 5px;
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 0.75rem;
+}
+
+.product-title {
+  font-family: 'Fraunces', serif;
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.product-description {
+  color: hsl(228, 12%, 48%);
+  line-height: 1.642;
+  margin-bottom: 1.5rem;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.current-price {
+  color: hsl(158, 36%, 37%);
+  font-size: 2rem;
+  line-height: 1;
+  margin-right: 1.188rem;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+}
+
+.old-price {
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+}
+
+button {
+  min-width: 100%;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  background: hsl(158, 36%, 37%);
+  border: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+button:hover {
+  background: hsl(158, 42%, 18%);
+}
+
+button img {
+  width: 0.893rem;
+  margin-right: 0.726rem;
+}
+
+@media screen and (min-width: 992px) {
+  .card {
+    display: flex;
+    min-width: 37.5rem;
+  }
+
+  .img-container {
+    min-width: 50%;
+    height: 100%;
+  }
+
+  .text-container {
+    padding: 2rem;
+  }
+
+  .img-container {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+  }
 }
